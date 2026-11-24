@@ -1,0 +1,7 @@
+team,hourly_rate_usd,notes
+Sales,45.0,Loaded rate assumption (sales consultants)
+F&I,65.0,Loaded rate assumption (F&I managers)
+Service,50.0,Loaded rate assumption (service advisors)
+Accounting,40.0,Loaded rate assumption
+Marketing,42.0,Loaded rate assumption
+IT / Support,55.0,Loaded rate assumption

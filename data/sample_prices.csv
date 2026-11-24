@@ -1,0 +1,8 @@
+tool_model,input_usd_per_m_tokens,output_usd_per_m_tokens,usd_per_call,notes
+Northstar Chat — Standard,15.0,60.0,2.15,"Illustrative fully loaded cost (API + allocated platform), not a vendor list price"
+Northstar Chat — Advanced,50.0,200.0,5.4,Illustrative fully loaded cost for the premium tier
+ServiceScribe,18.0,70.0,2.65,Illustrative fully loaded cost for RO write-up assistance
+LotCopy,15.0,60.0,2.05,Illustrative fully loaded cost for marketing copy
+ImageCraft,0.0,0.0,2.4,Illustrative fully loaded cost per generated image
+Ledger Mate,12.0,48.0,1.85,Illustrative fully loaded cost for accounting assistance
+TicketPilot,15.0,60.0,2.25,Illustrative fully loaded cost for support assistance
