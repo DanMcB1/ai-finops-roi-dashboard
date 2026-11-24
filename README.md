@@ -28,7 +28,8 @@ This dashboard is a practice version of that after-rollout artifact. It is usefu
 You need Python 3.10+ (3.13 is fine). No account, no cloud key, no internet after the packages are installed.
 
 ```bash
-cd 09-finops-roi-dashboard
+git clone https://github.com/DanMcB1/ai-finops-roi-dashboard.git
+cd ai-finops-roi-dashboard
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -118,11 +119,12 @@ Optional: `store`, `cost_usd`. If `cost_usd` is missing, or if you check **Recal
 ## Project layout
 
 ```
-09-finops-roi-dashboard/
+ai-finops-roi-dashboard/
   app.py                 Streamlit UI
   run.sh                 One-command launcher
   requirements.txt       streamlit, pandas, plotly
   README.md
+  LICENSE                MIT, Copyright (c) 2026 Daniel McBrearty
   DEMO_SCRIPT.md         ~1-minute talk track for interviews
   finops/                Pricing, metrics, sample generator, exec summary
   data/                  Seeded sample usage, prices, rates, budgets
@@ -136,3 +138,7 @@ Optional: `store`, `cost_usd`. If `cost_usd` is missing, or if you check **Recal
 If you only have a minute, start the app on the November default view, read the exec summary out loud, then point at Service hours, the F&I cost-per-task rise, and the Marketing spike on November 18. The talk track is in [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
 Daniel’s background is car sales, F&I, and auto software sales (Dealr.cloud), not professional software engineering. This project is meant to show he can talk about **per-department numbers and value** the way a dealer group already talks about gross — and that he is honest about what the math does not prove.
+
+## License
+
+This project is released under the [MIT License](LICENSE). Copyright (c) 2026 Daniel McBrearty.
