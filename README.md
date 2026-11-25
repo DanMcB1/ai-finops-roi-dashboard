@@ -1,5 +1,7 @@
 # Department-Level FinOps & ROI Dashboard
 
+**Portfolio project #9 of 12** from [@suraj_sharma14's FDE project list](https://x.com/suraj_sharma14/status/2125197762752806998).
+
 A small, offline demo that shows **AI usage cost and business value by department** for a company that has already rolled out AI tools.
 
 This is a **portfolio demo**, not production software. It does not connect to a billing API, the numbers are **sample data**, and the prices and hourly rates are **illustrative assumptions** — not live vendor pricing and not a real payroll file.
